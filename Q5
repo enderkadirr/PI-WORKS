@@ -1,0 +1,28 @@
+ [New User](Links Url) [x] Hide Disabled User                         
+
+| ID          | User Name  | Email              | Enabled     |
+| ----------- | -----------| -----------        | ----------- |
+|  1          |AdminUser   |admin@piworks.net   |  True       |
+|  2          |Test User   |testuser@piworks.net|  True       |
+                                       [Save User](Links Url)  
+
+## New User
+label :+Username: [textbox]
+label :+DisplayName: [textbox]
+label :+Phone: [textbox]
+label :+Email:[textbox]
+label :+User Roles:(listview)
+       -Guest
+       -Admin
+       -SuperAdmin
+
+Enabled: [] 
+
+(                        textbox(yanıtınızı girin)                      )
+
+
+
+
+
+
+<!-- User registration platform; We will ask the user to add a new user by placing the +New User button. We will ask the user to enter name , display name , phone , e-mail and select user roles. We will put a box for verification. This information entered will be added to the table and displayed in the table.Thank you .. -->
