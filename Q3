@@ -1,0 +1,24 @@
+using System;
+
+public class Swap
+{
+public static void Main()
+{
+int num1, num2;
+  
+Console.Write("Please give a number as 1st variable: "); // prompts user to enter first number
+num1 = Convert.ToInt32(Console.ReadLine());
+
+Console.Write("Please give a number as 2nd variable: "); // prompts user to enter second number   
+num2 = Convert.ToInt32(Console.ReadLine());
+
+// below three lines swaps both the numbers without using third variable
+num1 = num1 + num2;
+num2 = num1 - num2;   
+num1 = num1 - num2;
+
+// below two lines prints the values after swapping
+Console.WriteLine("\nThe value of the 1st variable: "+num1);
+Console.WriteLine("The value of the 2nd variable: "+num2);
+}
+}
